@@ -1,0 +1,302 @@
+<html>
+    <head>
+        <title>CS540 Project Suggestions</title>
+        <meta name="author" content="Nick Newcomer">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <link rel="stylesheet" 
+              href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap"/>
+        <h1 id="subheader">CS540 Project Advice and Review 📚</h1>
+        <img src="title.png" width="500px">
+        <p></p>
+                    <h4>By Nick Newcomer</h4>
+                    <h4>University of Wisconsin-Madison</h4>
+                    <h4><a href="https://www.linkedin.com/in/nick-newcomer-05590427b/">LinkedIn</a></h4>
+                    <h4>Github: <a href="https://github.com/njnewcomer">njnewcomer</a></h4>
+        <p>This a webpage dedicated to my experience working in a successful group
+            while completing the ten projects in CS540: Introduction to Artificial Intelligence.
+        </p>
+        <p></p>
+        <p>This course was taught by Professor Young Woo in Summer 2026.</p>
+            <h2 id="subheader2">Tips for using AI in this Course 📝</h2>
+            <ul>
+                <li id="bulletText">Find the best Large Language Model (LLM) that works best for you.</li>
+                <p></p>
+                <ul>
+                    <li id="bulletText">I would reccommend using Claude with its pro subscription.</li>
+                    <p></p>
+                    <li id="bulletText"> If you are using Claude, be aware of usage limits! Be smart with the messages you send!</li>
+                    <p></p>
+                </ul>
+            </ul>
+            <ul>
+                <li id="bulletText">Use AI to help you LEARN the course material, NOT TO JUST GET ANSWERS.</li>
+            </ul>
+            <ul>
+                <li id="bulletText">If you're struggling with a question on an assignment, try entering that same question in a new prompt (reprompting).</li>
+            </ul>
+            <img src="models.png" width="300px" style="margin-left: 40px;">
+            <ul>
+                <li id="bulletText">If you're not comfortable with Claude, explore other models such as Grok or ChatGPT.</li>
+            </ul>
+
+            <h2 id="subheader2">Suggestions for Projects 💻</h2>
+            <img src="teammates.png" width="300px" style="margin-left: 40px;">
+            <ul>
+                <li id="bulletText">Form a group for the projects at the start of the semester.</li>
+                <p></p>
+                <ul>
+                    <li id="bulletText">DO NOT COMPLETE PROJECTS IN THIS COURSE ALONE. Being in a group and discussing strategies 
+                        significantly boosts your chances of getting high scores on the competitions. </li>
+                    <p></p>
+                    <li id="bulletText">Get out there and find people who are consistent and motivated to do well in
+                        this course. Do not wait to reach out until the third week of class. 
+                    </li>
+                    <p></p>
+                </ul>
+                <p></p>
+                <li id="bulletText">Be cautious of spies.</li>
+                <ul>
+                    <li id="bulletText">Pick and choose groupmates that you trust. Spies can steal strategies from multiple
+                        groups so that their score can be improved, and so that they can hurt other group member's chances of
+                        getting a high score on projects. 
+                    </li>
+                    <li id="bulletText">I would reccommend sticking with a group of 5-7 people.</li>
+                </ul>
+            </ul>
+            <h2 id="projectHeader">Project #1 - Sphere, Cube Tetrahedron🔴🧊🔺</h2>
+            <img src="shapes.png" width="500px">
+                <p>This was one of the most intimidating projects of this course, mostly because you're
+                    learning how to train a network for the first time (on your own or using a Large Language
+                    Model).
+                </p>
+                <p>
+                    COMMUNICATE WITH YOUR TEAMMATES! This will make this project less stressful!
+                </p>
+                <h3 id="tipsHeader">Suggestions💡</h3>
+                <ul>
+                    <li>Starting out, train each shape on the same number of images.</li>
+                    <p></p>
+                    <li>Train on as many images as you can. Don't go crazy, but get a good number of images
+                        at each noise level (try to get a total of 50,000 to 200,000 images).
+                    </li>
+                    <p></p>
+                    <li>Find the noise threshold at which detecting the shapes is nearly impossible.
+                        Look for this range at around 70-100 percent noise.
+                    </li>
+                    <p></p>
+                    <li>This is the first time where you will talk with your team. Discuss a strategy 
+                        to decide which images you will submit for the competition.
+                        <ul>
+                            <li>
+                                 Ideas: Inverted Images, large dark/grey/white spots in images, etc.
+                            </li>
+                        </ul>
+                    </li>
+                    <p></p>
+                    <li>For the competition, if you'd like to bias your model towards the shape for the designated
+                        team, that is also an option as well. 
+                    </li>
+                </ul>
+            <h2 id="projectHeader">Project #2 - Race Car Track🏎️</h2>
+            <img src="racecar.png" width="250px">
+                <h3 id="tipsHeader">Suggestions💡</h3>
+                <ul>
+                    <li>Hint: Think of all possible directions the car could move towards once it is stopped.</li>
+                    <p></p>
+                    <li>Use the maximum number of sensors that the project allows without deducting points during the competition.</li>
+                    <p></p>
+                    <li>Training your racecar network should be a steady and sequential process:</li>
+                    <ul>
+                        <li>First, make sure your car can race around the track without bumping into the walls. You can also decide what
+                            line or path it will follow around the track (close or far from the walls).
+                        </li>
+                        <li>
+                            Next, use the competition simulator to insert practice cars to race against. The purpose of doing this is to
+                            train your network to recognize other cars.
+                        </li>
+                        <li>
+                            Keep training your network until you're satisfied with your performance.
+                        </li>
+                    </ul>
+                    <p></p>
+                    <li>Talk with your teammates to discuss your strategy for the competition. Remember that you can't hit your
+                        teammates cars, and that you will be racing with two cars!
+                    </li>
+                </ul>
+            <h2 id="projectHeader">Project #3 - Cancer Patient Tree 🪾</h2>
+                <p></p>
+                <img src="tree.png" width="400px">
+                <h3 id="tipsHeader">Suggestions💡</h3>
+                <ul>
+                    <li>Use the source listed in the assignment to determine the number of patients and their conditions.
+                        This will help you construct the tree covering as much cases as possible.
+                    </li>
+                    <p></p>
+                    <li>Pay attention to the scoring formula! Your success depends on working with your team members.</li>
+                    <ul>
+                        <li>The more unique test items your team submits, the smaller the penalty for getting a diagnosis wrong.</li>
+                        <li>Decide what size each team member's tree should be. Each tree should be similar in size.</li>
+                    </ul>
+                    <p></p>
+                    <li>For the competition, pick out unique cases that other teams are likely to classify wrong. Make sure you and
+                        your team can identify these scenarios correctly.
+                    </li>
+                </ul>
+            <h2 id="projectHeader">Project #4 - Alien Language Decoding 👽</h2>
+            <img src="alienText.png" width="400px">
+                <p></p>
+                <h3 id="tipsHeader">Suggestions💡</h3>
+                <ul>
+                    <li>Learn the process behind creating your convolutional neural network as 
+                        described in the assignment. 
+                    </li>
+                    <p></p>
+                    <li>
+                        For the competition, talk with your teammates to determine the number of curves
+                        in the alien language that you will identify.
+                    </li>
+                    <ul>
+                        <li>
+                            The process for creating your competition submissions should be similar to
+                            A1. Train your network on thousands of random curve images for each digit. 
+                            Train until you are satisfied with your digit probabilities. 
+                        </li>
+                        <li>
+                            After training your images, exchange your results with your teammates and
+                            train on their best images. 
+                        </li>
+                    </ul>
+                </ul>
+            <h2 id="projectHeader">Project #5 - Sentence Debate 🗣️</h2>
+                <p></p>
+                <img src="debateGlobe.png" width="400px">
+                <h3 id="tipsHeader">Suggestions💡</h3>
+                <ul>
+                    <li>
+                        Talk with your team and decide what target sentence that you will support in the
+                        debate.
+                    </li>
+                    <p></p>
+                    <li>
+                        Once you have decided your sentence, use the Universal Sentence Encoder. 
+                        This should give you the 512 dimensional vectors for the assignment. 
+                    </li>
+                    <p></p>
+                    <li>
+                        Come up with 10 sentences that support the target sentence, and test their quality
+                        using the agent or a large language model. 
+                    </li>
+                </ul>
+            <h2 id="projectHeader">Project #6 - Emoji Eigenface Suspects 😳</h2>
+                <p></p>
+                <img src="emojis.png" width="400px">
+                <h3 id="tipsHeader">Suggestions💡</h3>
+                <ul>
+                    <li>
+                        Your k-value for this assignment is crucial for how well you will perform
+                        during the competition. The goal is to identify all suspects while making
+                        the k-value as small as possible. 
+                    </li>
+                    <p></p>
+                    <li>
+                        Talk with your teammates to decide what group you will identify for the competition.
+                        By identifying suspects in the same group, your team can discuss which suspects are the
+                        best to go for in your final submission.
+                    </li>
+                    <p></p>
+                    <li>
+                        Once you have your list of suspects, make sure you can identify them across
+                        a variety of noise levels. 
+                    </li>
+                </ul>
+            <h2 id="projectHeader">Project #7 - Drive and Shop Until You Drop 🛍️</h2>
+                <p></p>
+                <img src="shoppingMap.png" width="400px">
+                <h3 id="tipsHeader">Suggestions💡</h3>
+                <ul>
+                    <li>
+                        Your decision for what map you will shop for items in is crucial for the
+                        competition. Try and use a map that you think other students will not go for,
+                        so that you can get as most of the items on your list as you can. 
+                    </li>
+                    <p></p>
+                    <li>
+                        Collect all of the items on your list at the cheapest prices and keep each car
+                        under its distance limit.
+                    </li>
+                    <p></p>
+                    <li>
+                        Use the competition simulator to get a score estimate of your current path on the map,
+                        and adjust until you're satisfied with your score. 
+                    </li>
+                </ul>
+
+            <h2 id="projectHeader">Project #8 - Connect 8 Heuristic 🔴🔵</h2>
+                <p></p>
+                <img src="connectFour.png" width="400px">
+                <h3 id="tipsHeader">Suggestions💡</h3>
+                <ul>
+                    <li>
+                        Test your heuristic answers and networks on the game simulator to see how
+                        your network does against the simulator. Test it and verify with LLM until you
+                        are satisfied. 
+                    </li>
+                    <p></p>
+                    <li>
+                        Notice what depth means while you are answering your questions. A depth of X means
+                        to look X moves ahead with the heuristic. 
+                    </li>
+                    <p></p>
+                    <li>
+                        Don't be concerned if the autograder disagrees with some of these questions. Try
+                        reprompting for each question (this is what I had to do!). 
+                    </li>
+                </ul>
+            <h2 id="projectHeader">Project #9 - Flappy Birds 🐧🧱</h2>
+                <p></p>
+                <img src="flappyBirds.png" width="500px">
+                <h3 id="tipsHeader">Suggestions💡</h3>
+                <ul>
+                    <li>
+                        Simulate your answers through the test pipes after answering the questions
+                        and constructing a network using LLM or your own code. Fly through as many
+                        pipes as you can!
+                    </li>
+                    <p></p>
+                    <li>
+                        If LLM can't fix the answer for flapping and not flapping the bird (1's and 0's),
+                        instead use the feedback from the grader to change your answers. This helped me
+                        a lot while completing the project. 
+                    </li>
+                    <p></p>
+                    <li>
+                        Get the highest fitness score possible. A score of 200 or higher is good. Try and
+                        get at least 250 if you want a high competition score!
+                    </li>
+                </ul>
+
+            <h2 id="projectHeader">Project #10 - Soccer Game ⚽🥅</h2>
+                <p></p>
+                <img src="soccerGame.png" width="500px">
+                <h3 id="tipsHeader">Suggestions💡</h3>
+                <ul>
+                    <li>
+                        Test your networks thoroughly against the opponent. This should be
+                        similar to the Connect 4 project. 
+                    </li>
+                    <p></p>
+                    <li>
+                        If you get a question incorrect, pay attention to the grader's feedback
+                        so that you can know what the ball flag should be. That should help you
+                        answer most of the questions. 
+                    </li>
+                    <p></p>
+                    <li>
+                        Train your network against your teammates so that you can each other's
+                        networks stronger for the competition!
+                    </li>
+                </ul>
+    </body>
+</html>
